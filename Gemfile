@@ -8,10 +8,11 @@ gem "sinatra-twitter-bootstrap"
 gem 'sprockets'
 gem 'shotgun'
 gem 'foreman', '0.60.0'
-gem 'mongoid'
+gem 'mongoid', '~> 3.1.5'
 gem 'activesupport'
 gem 'eco'
 gem 'deano'
+gem 'bson_ext'
 
 group :development, :test do
   gem 'rack-test'
