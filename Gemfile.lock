@@ -36,6 +36,10 @@ GEM
       moped (~> 1.4)
       origin (~> 1.0)
       tzinfo (~> 0.3.29)
+    mongoid-rspec (1.9.0)
+      mongoid (>= 3.0.1)
+      rake
+      rspec (>= 2.14)
     moped (1.5.1)
     multi_json (1.8.2)
     origin (1.1.0)
@@ -43,11 +47,14 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pry-nav (0.2.3)
+      pry (~> 0.9.10)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.1.0)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -89,7 +96,9 @@ DEPENDENCIES
   eco
   foreman (= 0.60.0)
   mongoid (~> 3.1.5)
+  mongoid-rspec
   pry
+  pry-nav
   rack-test
   rspec
   sass

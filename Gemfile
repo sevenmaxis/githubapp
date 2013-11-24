@@ -18,4 +18,10 @@ group :development, :test do
   gem 'rack-test'
   gem 'rspec'
   gem 'pry'
+  gem 'pry-nav'
 end
+
+group :test do
+	gem 'mongoid-rspec', require: false
+end
+
