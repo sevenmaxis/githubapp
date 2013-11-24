@@ -17,7 +17,7 @@ Mongoid.load!(File.join(File.dirname(__FILE__), "mongoid.yml"), env.to_sym)
 
 $LOAD_PATH << '.'
 
-%w{apps models}.each do |dir|
+%w{apps models lib}.each do |dir|
   Dir[File.expand_path(File.join(dir, "**", "*.rb"), File.dirname(__FILE__))].each do |file|
     require file
   end  
