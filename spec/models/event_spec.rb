@@ -7,6 +7,7 @@ describe Event, orm: :mongoid do
 
 		it { should have_field(:type).of_type(String) }
 		it { should have_field(:event_id).of_type(String) }
+		it { should have_field(:created_at).of_type(Time) }
 
 		it { should belong_to(:user) }
 
